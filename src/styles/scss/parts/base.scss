@@ -3,3 +3,75 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 1360px;
+    margin: auto;
+    padding: 36px 40px;
+
+    .content-wrapper {
+        width: 50%;
+        height: 456px;
+        padding: 102px 72px;
+        background: #EBF0FA;
+
+        .content__title {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 160%;
+            color: #1F4284;
+            margin-bottom: 18px;
+        }
+
+        .content__plot {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 160%;
+            color: #727272;
+            margin-bottom: 36px;
+        }
+
+        .content__button {
+            display: flex;
+            align-items: center;
+            padding: 12px 12px 12px 24px;
+            width: 341px;
+            height: 68px;
+            background: #244C98;
+            border-radius: 60px;
+            display: flex;
+            justify-content: space-between;
+            transition: .5s;
+
+            &:hover {
+                background: #3060ba;
+            }
+        }
+
+        .content__button-span {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 160%;
+            color: #FFFFFF;
+        }
+    }
+
+    .visual-wrapper {
+        width: 50%;
+        height: 456px;
+
+        .visual__image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
