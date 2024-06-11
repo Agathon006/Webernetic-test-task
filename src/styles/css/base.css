@@ -193,6 +193,10 @@ body {
   line-height: 160%;
   color: #FFFFFF;
 }
+.wrapper .content-wrapper .content__button-image {
+  width: 44px;
+  height: 44px;
+}
 .wrapper .visual-wrapper {
   width: 50%;
   height: 456px;
