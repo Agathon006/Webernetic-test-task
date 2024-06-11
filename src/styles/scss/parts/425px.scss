@@ -6,10 +6,28 @@
 
             .pop-up-message {
                 width: 90%;
+                height: fit-content;
                 padding: 12px;
 
                 .pop-up-message__title {
                     text-align: center;
+                }
+
+                .pop-up-message__title {
+                    margin-bottom: 9px;
+                }
+
+                .pop-up-message__input {
+                    padding: 12px;
+                    height: 53px;
+                }
+
+                .pop-up-message__checkbox-wrapper {
+                    margin: 12px 0;
+                }
+
+                .pop-up-message__restore-button {
+                    margin-bottom: 16px;
                 }
             }
         }

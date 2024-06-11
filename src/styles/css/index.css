@@ -253,10 +253,25 @@ body {
 @media (max-width: 425px) {
   .pop-up-message-wrapper .pop-up-message-flex .pop-up-message {
     width: 90%;
+    height: -moz-fit-content;
+    height: fit-content;
     padding: 12px;
   }
   .pop-up-message-wrapper .pop-up-message-flex .pop-up-message .pop-up-message__title {
     text-align: center;
+  }
+  .pop-up-message-wrapper .pop-up-message-flex .pop-up-message .pop-up-message__title {
+    margin-bottom: 9px;
+  }
+  .pop-up-message-wrapper .pop-up-message-flex .pop-up-message .pop-up-message__input {
+    padding: 12px;
+    height: 53px;
+  }
+  .pop-up-message-wrapper .pop-up-message-flex .pop-up-message .pop-up-message__checkbox-wrapper {
+    margin: 12px 0;
+  }
+  .pop-up-message-wrapper .pop-up-message-flex .pop-up-message .pop-up-message__restore-button {
+    margin-bottom: 16px;
   }
   .wrapper {
     width: 100%;
