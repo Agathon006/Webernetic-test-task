@@ -12,7 +12,42 @@
 </head>
 
 <body>
-    
+    <div class="pop-up-message-wrapper not-visible" id="pop-up-message" data-close="true">
+        <div class="pop-up-message-flex" data-close="true">
+            <div class="pop-up-message">
+                <button class="pop-up-message__close-button" data-close="true">
+                    <img src="./src/styles/images/closeButton.svg" alt="close" class="pop-up-message__close-button-img"
+                        data-close="true">
+                </button>
+                <h3 class="pop-up-message__title">Войти в систему</h3>
+                <input type="text" placeholder="Email/Телефон" class="pop-up-message__input">
+                <input type="password" placeholder="Пароль" class="pop-up-message__input">
+                <div class="pop-up-message__checkbox-wrapper">
+                    <input id="checkbox" type="checkbox" class="pop-up-message__checkbox">
+                    <label for="checkbox" class="pop-up-message__label">Запомнить пароль</label>
+                </div>
+                <button class="pop-up-message__restore-button">Восстановить</button>
+                <button class="pop-up-message__button">Войти</button>
+                <button class="pop-up-message__button">Зарегистрироваться</button>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <section class="content-wrapper">
+            <h2 class="content__title">Демо-версия</h2>
+            <p class="content__plot">За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее
+                2500
+                средних и малых
+                проектов. Используя знания и накопленный опыт мы можем предложить </p>
+            <button class="content__button" id="try-button">
+                <span class="content__button-span">Попробовать бесплатно</span>
+                <img src="./src/styles/images/tryButton.svg" alt="submit" class="content__button-image">
+            </button>
+        </section>
+        <div class="visual-wrapper">
+            <img src="./src/styles/images/homeImage.png" alt="homeImage" class="visual__image">
+        </div>
+    </div>
 </body>
 
 </html>

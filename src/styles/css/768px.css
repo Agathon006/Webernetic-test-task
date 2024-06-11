@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+  .pop-up-message-wrapper .pop-up-message-flex .pop-up-message {
+    width: 80%;
+  }
+  .wrapper {
+    flex-direction: column;
+    width: 720px;
+    padding: 24px;
+  }
+  .wrapper .content-wrapper {
+    width: 100%;
+    height: auto;
+    padding: 24px;
+  }
+  .wrapper .content-wrapper .content__title {
+    font-size: 20px;
+  }
+  .wrapper .content-wrapper .content__plot {
+    font-size: 15px;
+  }
+  .wrapper .content-wrapper .content__button {
+    padding: 10px 10px 10px 18px;
+    width: 261px;
+    height: 56px;
+  }
+  .wrapper .content-wrapper .content__button-span {
+    font-size: 15px;
+  }
+  .wrapper .content-wrapper .content__button-image {
+    width: 36px;
+    height: 36px;
+  }
+  .wrapper .visual-wrapper {
+    width: 100%;
+    height: auto;
+  }
+}/*# sourceMappingURL=768px.css.map */

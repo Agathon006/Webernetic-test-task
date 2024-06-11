@@ -1,0 +1,2 @@
+(()=>{"use strict";var e=document.querySelector("#try-button"),t=document.querySelector("#pop-up-message");e.addEventListener("click",(function(){t.classList.remove("not-visible"),document.body.style.overflow="hidden",document.addEventListener("mousedown",handleClickOutside)})),t.addEventListener("click",(function(e){e.target.hasAttribute("data-close")&&(t.classList.add("not-visible"),document.body.style.overflow="auto",document.removeEventListener("mousedown",handleClickOutside))}))})();
+//# sourceMappingURL=bundle.js.map
