@@ -7,6 +7,10 @@
             .pop-up-message {
                 width: 90%;
                 padding: 12px;
+
+                .pop-up-message__title {
+                    text-align: center;
+                }
             }
         }
     }
