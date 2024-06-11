@@ -140,4 +140,10 @@ table {
 button {
     border: none;
     cursor: pointer;
+    background-color: transparent;
+}
+
+input {
+    border: none;
+    cursor: pointer;
 }

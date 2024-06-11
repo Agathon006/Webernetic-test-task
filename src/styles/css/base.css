@@ -23,13 +23,13 @@ body {
   background-color: rgba(22, 44, 78, 0.6);
 }
 .pop-up-message-wrapper .pop-up-message-flex .pop-up-message {
-  height: 575px;
   width: 500px;
-  background-color: #F0F4FC;
+  height: 575px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 24px;
+  background: #F0F4FC;
+  border: 1px solid #000000;
 }
 .pop-up-message-wrapper .pop-up-message-flex .pop-up-message .pop-up-message__close-button {
   width: 52px;
@@ -40,9 +40,103 @@ body {
   align-self: flex-end;
   background: #FFFFFF;
   border-radius: 10px;
+  margin-bottom: 4px;
 }
 .pop-up-message-wrapper .pop-up-message-flex .pop-up-message .pop-up-message__close-button .pop-up-message__close-button-img {
   padding: 14px;
+}
+.pop-up-message-wrapper .pop-up-message-flex .pop-up-message .pop-up-message__title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  color: #323232;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 18px;
+}
+.pop-up-message-wrapper .pop-up-message-flex .pop-up-message .pop-up-message__input {
+  padding: 24px;
+  width: 100%;
+  height: 73px;
+  background: #D7E2F6;
+  border-radius: 10px;
+  margin-bottom: 4px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #1F4284;
+}
+.pop-up-message-wrapper .pop-up-message-flex .pop-up-message input::-moz-placeholder {
+  color: #1F4284;
+}
+.pop-up-message-wrapper .pop-up-message-flex .pop-up-message input::placeholder {
+  color: #1F4284;
+}
+.pop-up-message-wrapper .pop-up-message-flex .pop-up-message .pop-up-message__checkbox-wrapper {
+  display: flex;
+  margin: 24px 0;
+}
+.pop-up-message-wrapper .pop-up-message-flex .pop-up-message .pop-up-message__checkbox-wrapper .pop-up-message__checkbox {
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+.pop-up-message-wrapper .pop-up-message-flex .pop-up-message .pop-up-message__checkbox-wrapper .pop-up-message__label {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #323232;
+  display: flex;
+  cursor: pointer;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.pop-up-message-wrapper .pop-up-message-flex .pop-up-message .pop-up-message__restore-button {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  color: #244C98;
+  margin-bottom: 36px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.pop-up-message-wrapper .pop-up-message-flex .pop-up-message .pop-up-message__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 12px;
+  width: 100%;
+  height: 65px;
+  border-radius: 4px;
+  transition: 0.5s;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+}
+.pop-up-message-wrapper .pop-up-message-flex .pop-up-message .pop-up-message__button:nth-child(odd) {
+  background: #244C98;
+  color: #FFFFFF;
+}
+.pop-up-message-wrapper .pop-up-message-flex .pop-up-message .pop-up-message__button:nth-child(odd):hover {
+  background: #4071cb;
+}
+.pop-up-message-wrapper .pop-up-message-flex .pop-up-message .pop-up-message__button:nth-child(even) {
+  border: 1px solid #244C98;
+  border-radius: 4px;
+  color: #244C98;
+  margin-top: 4px;
+}
+.pop-up-message-wrapper .pop-up-message-flex .pop-up-message .pop-up-message__button:nth-child(even):hover {
+  background: #bad2ff;
 }
 
 .wrapper {
